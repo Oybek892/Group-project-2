@@ -1,0 +1,425 @@
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 95px;
+}
+.container-reg {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+body {
+  .clothes {
+    .text {
+      p {
+        color: #000;
+        text-align: center;
+        font-variant-numeric: lining-nums proportional-nums;
+        font-family: Montserrat;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%; /* 47.6px */
+        letter-spacing: 0.25px;
+      }
+    }
+    .category {
+      display: flex;
+      gap: 30px;
+      padding-bottom: 80px;
+      .p-1 {
+        color: #000;
+        font-variant-numeric: lining-nums proportional-nums;
+        font-family: Montserrat;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+      }
+      .red {
+        width: 264px;
+        height: 272px;
+        flex-shrink: 0;
+        .p-1 {
+          display: flex;
+          justify-content: center;
+        }
+      }
+      .black {
+        width: 264px;
+        height: 272px;
+        flex-shrink: 0;
+        .p-1 {
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+//////MANS////////
+body {
+  background: #fafafa;
+  .mans {
+    .back {
+      padding-top: 72px;
+      .cards {
+        padding-bottom: 24px;
+        .box-1 {
+          display: flex;
+          background-color: #fff;
+          border-radius: 12px;
+          .man {
+            .texts {
+              padding-left: 30px;
+              .close {
+                display: flex;
+                align-items: center;
+                .p-1 {
+                  color: #040921;
+
+                  font-family: Montserrat;
+                  font-size: 24px;
+                  font-style: normal;
+                  font-weight: 700;
+                }
+                img {
+                  padding-left: 450px;
+                  cursor: pointer;
+                }
+              }
+              .p-2 {
+                color: #000;
+                font-family: Montserrat;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                letter-spacing: 0.25px;
+                max-width: 620px;
+                padding-top: 50px;
+              }
+            }
+            .java {
+              display: flex;
+              align-items: center;
+              padding-left: 30px;
+              padding-top: 20px;
+              .p-1 {
+                color: var(--black, #0d0d0d);
+                font-family: Montserrat;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                letter-spacing: 0.44px;
+                padding-right: 40px;
+              }
+              .p-2 {
+                color: var(--black, #0d0d0d);
+                font-family: Montserrat;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                letter-spacing: 0.44px;
+                padding-right: 16px;
+              }
+              .p-3 {
+                color: #000;
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                padding-right: 350px;
+              }
+              .img {
+                display: flex;
+                align-items: center;
+                img {
+                  cursor: pointer;
+                }
+
+                .card {
+                  width: 93px;
+                  height: 37px;
+                  background: #f2f2f2;
+                  display: flex;
+                  align-items: center;
+                  .p-1 {
+                    padding: 0 43px;
+                    color: #000;
+                    font-family: Montserrat;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                    letter-spacing: 0.15px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .zakaz {
+      display: flex;
+      align-items: center;
+      padding-top: 20px;
+      padding-bottom: 60px;
+      .p-1 {
+        color: #000;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+      }
+      .p-2 {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: 0.44px;
+        padding-left: 16px;
+        padding-right: 610px;
+      }
+      .buton {
+        .btn {
+          cursor: pointer;
+          background-color: #ffc000;
+          color: #0d0d0d;
+          font-family: Montserrat;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 600;
+          letter-spacing: 0.75px;
+          padding: 14px 111px;
+          border: none;
+        }
+        .btn:hover {
+          background-color: #e9af00;
+          color: #fff;
+          transition: 0.4s;
+        }
+      }
+    }
+    .tovar {
+      .p-0 {
+        display: flex;
+        justify-content: center;
+        color: #000;
+        font-family: Montserrat;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 0.25px;
+        padding-bottom: 32px;
+      }
+      .cards-1 {
+        display: flex;
+        gap: 30px;
+        .card-1 {
+          background-color: #fff;
+          border-radius: 12px;
+          .p-1 {
+            color: var(--black, #000);
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+            letter-spacing: 0.75px;
+            padding-left: 12px;
+          }
+          .p-2 {
+            color: var(--black, #000);
+            font-family: Montserrat;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            letter-spacing: 0.4px;
+            padding-left: 12px;
+            max-width: 200px;
+          }
+          .ball {
+            display: flex;
+            align-items: center;
+            padding-left: 12px;
+            img {
+              padding-right: 78px;
+            }
+            .p-1 {
+              color: var(--black, #000);
+              font-family: Montserrat;
+              font-size: 10px;
+              font-style: normal;
+              font-weight: 700;
+              letter-spacing: 1.5px;
+            }
+          }
+          .button {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 10px;
+            .btn {
+              cursor: pointer;
+              border-radius: 6px;
+              background: var(--gold, #ffc000);
+              border: none;
+              padding: 8px 48px;
+              color: var(--black, #000);
+              font-family: Montserrat;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 600;
+              letter-spacing: 0.75px;
+            }
+            .btn:hover {
+              background-color: #e9af00;
+              color: #fff;
+              transition: 0.4s;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/////////REGISTRATION///////////////
+body {
+  .registration {
+    background: #fafafa;
+
+    .reg {
+      .p-1 {
+        color: #000;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 0.25px;
+      }
+      .p-9 {
+        color: #000;
+
+        font-family: Montserrat;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 0.25px;
+        display: none;
+      }
+      .forms {
+        display: flex;
+        .left {
+          img {
+            padding-right: 60px;
+          }
+        }
+        .right {
+          .input {
+            padding-bottom: 25px;
+            .imgg {
+              cursor: pointer;
+              margin-top: -37px;
+              padding-left: 475px;
+            }
+          }
+          input {
+            border-color: #dbdee7;
+            border-radius: 5px;
+            padding: 14px 0;
+            padding-left: 24px;
+            padding-right: 270px;
+            color: #000;
+            font-family: Inter;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+          }
+          .p-2 {
+            color: #000;
+            font-family: Open Sans;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            padding-bottom: 5px;
+          }
+          .left-btn {
+            padding-top: 10px;
+            .btn {
+              border: none;
+              border-radius: 6px;
+              background: #ffc000;
+              color: #0d0d0d;
+              text-align: center;
+              font-family: Inter;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 700;
+              padding: 13px 90px;
+            }
+            .btn:hover {
+              background-color: #e9af00;
+              color: #fff;
+              transition: 0.4s;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+////////RESPONSIVE////////////
+@media (max-width: 1240px) {
+  body {
+    .registration {
+      .container {
+        padding: 0 20px !important;
+      }
+      .reg {
+        .p-1 {
+          size: 16px;
+        }
+        .left {
+          img {
+            max-width: 490px;
+          }
+        }
+        .right {
+          .input {
+            input {
+              padding-right: 180px;
+            }
+            .imgg {
+              img {
+                margin-left: -100px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 450px) {
+  body {
+    .registration {
+      .reg {
+        // .p-1 {
+        //   display: none;
+        // }
+        // .p-9 {
+        //   display: block;
+        // }
+        .forms {
+          display: block;
+          .right {
+            padding-top: 50px;
+            padding-left: 50px;
+          }
+        }
+      }
+    }
+  }
+}

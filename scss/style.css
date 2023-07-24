@@ -1,0 +1,374 @@
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 95px;
+}
+
+.container-reg {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+body .clothes .text p {
+  color: #000;
+  text-align: center;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Montserrat;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 47.6px */
+  letter-spacing: 0.25px;
+}
+body .clothes .category {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 80px;
+}
+body .clothes .category .p-1 {
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+body .clothes .category .red {
+  width: 264px;
+  height: 272px;
+  flex-shrink: 0;
+}
+body .clothes .category .red .p-1 {
+  display: flex;
+  justify-content: center;
+}
+body .clothes .category .black {
+  width: 264px;
+  height: 272px;
+  flex-shrink: 0;
+}
+body .clothes .category .black .p-1 {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background: #fafafa;
+}
+body .mans .back {
+  padding-top: 72px;
+}
+body .mans .back .cards {
+  padding-bottom: 24px;
+}
+body .mans .back .cards .box-1 {
+  display: flex;
+  background-color: #fff;
+  border-radius: 12px;
+}
+body .mans .back .cards .box-1 .man .texts {
+  padding-left: 30px;
+}
+body .mans .back .cards .box-1 .man .texts .close {
+  display: flex;
+  align-items: center;
+}
+body .mans .back .cards .box-1 .man .texts .close .p-1 {
+  color: #040921;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+body .mans .back .cards .box-1 .man .texts .close img {
+  padding-left: 450px;
+  cursor: pointer;
+}
+body .mans .back .cards .box-1 .man .texts .p-2 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  max-width: 620px;
+  padding-top: 50px;
+}
+body .mans .back .cards .box-1 .man .java {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+body .mans .back .cards .box-1 .man .java .p-1 {
+  color: var(--black, #0d0d0d);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.44px;
+  padding-right: 40px;
+}
+body .mans .back .cards .box-1 .man .java .p-2 {
+  color: var(--black, #0d0d0d);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.44px;
+  padding-right: 16px;
+}
+body .mans .back .cards .box-1 .man .java .p-3 {
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  padding-right: 350px;
+}
+body .mans .back .cards .box-1 .man .java .img {
+  display: flex;
+  align-items: center;
+}
+body .mans .back .cards .box-1 .man .java .img img {
+  cursor: pointer;
+}
+body .mans .back .cards .box-1 .man .java .img .card {
+  width: 93px;
+  height: 37px;
+  background: #f2f2f2;
+  display: flex;
+  align-items: center;
+}
+body .mans .back .cards .box-1 .man .java .img .card .p-1 {
+  padding: 0 43px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.15px;
+}
+body .mans .zakaz {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+body .mans .zakaz .p-1 {
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+body .mans .zakaz .p-2 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.44px;
+  padding-left: 16px;
+  padding-right: 610px;
+}
+body .mans .zakaz .buton .btn {
+  cursor: pointer;
+  background-color: #ffc000;
+  color: #0d0d0d;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.75px;
+  padding: 14px 111px;
+  border: none;
+}
+body .mans .zakaz .buton .btn:hover {
+  background-color: #e9af00;
+  color: #fff;
+  transition: 0.4s;
+}
+body .mans .tovar .p-0 {
+  display: flex;
+  justify-content: center;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  padding-bottom: 32px;
+}
+body .mans .tovar .cards-1 {
+  display: flex;
+  gap: 30px;
+}
+body .mans .tovar .cards-1 .card-1 {
+  background-color: #fff;
+  border-radius: 12px;
+}
+body .mans .tovar .cards-1 .card-1 .p-1 {
+  color: var(--black, #000);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.75px;
+  padding-left: 12px;
+}
+body .mans .tovar .cards-1 .card-1 .p-2 {
+  color: var(--black, #000);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  padding-left: 12px;
+  max-width: 200px;
+}
+body .mans .tovar .cards-1 .card-1 .ball {
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
+}
+body .mans .tovar .cards-1 .card-1 .ball img {
+  padding-right: 78px;
+}
+body .mans .tovar .cards-1 .card-1 .ball .p-1 {
+  color: var(--black, #000);
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+body .mans .tovar .cards-1 .card-1 .button {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+body .mans .tovar .cards-1 .card-1 .button .btn {
+  cursor: pointer;
+  border-radius: 6px;
+  background: var(--gold, #ffc000);
+  border: none;
+  padding: 8px 48px;
+  color: var(--black, #000);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.75px;
+}
+body .mans .tovar .cards-1 .card-1 .button .btn:hover {
+  background-color: #e9af00;
+  color: #fff;
+  transition: 0.4s;
+}
+
+body .registration {
+  background: #fafafa;
+}
+body .registration .reg .p-1 {
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.25px;
+}
+body .registration .reg .p-9 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  display: none;
+}
+body .registration .reg .forms {
+  display: flex;
+}
+body .registration .reg .forms .left img {
+  padding-right: 60px;
+}
+body .registration .reg .forms .right .input {
+  padding-bottom: 25px;
+}
+body .registration .reg .forms .right .input .imgg {
+  cursor: pointer;
+  margin-top: -37px;
+  padding-left: 475px;
+}
+body .registration .reg .forms .right input {
+  border-color: #dbdee7;
+  border-radius: 5px;
+  padding: 14px 0;
+  padding-left: 24px;
+  padding-right: 270px;
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+body .registration .reg .forms .right .p-2 {
+  color: #000;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+body .registration .reg .forms .right .left-btn {
+  padding-top: 10px;
+}
+body .registration .reg .forms .right .left-btn .btn {
+  border: none;
+  border-radius: 6px;
+  background: #ffc000;
+  color: #0d0d0d;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  padding: 13px 90px;
+}
+body .registration .reg .forms .right .left-btn .btn:hover {
+  background-color: #e9af00;
+  color: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+@media (max-width: 1240px) {
+  body .registration .container {
+    padding: 0 20px !important;
+  }
+  body .registration .reg .p-1 {
+    size: 16px;
+  }
+  body .registration .reg .left img {
+    max-width: 490px;
+  }
+  body .registration .reg .right .input input {
+    padding-right: 180px;
+  }
+  body .registration .reg .right .input .imgg img {
+    margin-left: -100px;
+  }
+}
+@media (max-width: 450px) {
+  body .registration .reg .forms {
+    display: block;
+  }
+  body .registration .reg .forms .right {
+    padding-top: 50px;
+    padding-left: 50px;
+  }
+}/*# sourceMappingURL=style.css.map */
